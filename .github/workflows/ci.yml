@@ -1,0 +1,11 @@
+name: CI
+
+on:
+  push:
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: echo "Hello from the release drill demo!"
